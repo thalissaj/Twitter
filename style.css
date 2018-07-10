@@ -81,6 +81,7 @@ main {
   font-family: 'Helvetica Neue LT Std 45 Light';
   font-size: 14px;
   overflow: hidden;
+  min-height: 62px;
 }
 .conteiner-button {
   display: flex;
