@@ -1,0 +1,126 @@
+@font-face {
+font-family: 'Helvetica Neue LT Std 45 Light';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Std 45 Light'), url('HelveticaNeueLTStdLt.woff') format('woff');
+}
+body {
+  font-family: 'Helvetica Neue LT Std 45 Light';
+  background-color: #E6ECF0;
+}
+.navigation{
+  height: 45px;
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-twitter {
+  font-size: 24px;
+  color: #1DA1F2;
+}
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.profile {
+  width: 25%;
+  height: 120px;
+  background-color: white;
+  margin: 8px 8px 0 0;
+  display: flex;
+  align-items: center;
+}
+.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.text-profile {
+  display: block;
+  padding-left: 10px;
+}
+.text-profile p {
+  margin: 0;
+}
+.text-profile .user-name {
+  color: #658CB1;
+  font-size: 14px;
+}
+.publish-conteiner {
+  height: auto;
+  width: 50%;
+  background-color: #E8F4FB;
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+.publish-form {
+  align-items: flex-end;
+  flex-direction: column;
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+}
+.publish-form textarea {
+  width: 100%;
+  height: auto;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #C6E4F7;
+  border-radius: 4px;
+  background-color: white;
+  margin-top: 10px;
+  vertical-align: text-top !important;
+  display: block;
+  text-align: left;
+  resize: vertical;
+  font-family: 'Helvetica Neue LT Std 45 Light';
+  font-size: 14px;
+  overflow: hidden;
+}
+.conteiner-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-start;
+}
+.conteiner-button button {
+  width: 80px;
+  height: 35px;
+  background-color: #48AAE6;
+  margin: 8px;
+  border: 0;
+  border-radius: 16px;
+  color: white;
+  font-weight: 700;
+}
+#counter {
+  color: #658CB1;
+  margin: 0;
+  padding: 5px;
+}
+.red {
+  color: red !important;
+}
+.orange {
+  color: orange !important;
+}
+#newTweet-conteiner {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+.newTweet {
+  width: 70%;
+  height: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 5px;
+}
